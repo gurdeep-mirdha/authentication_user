@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    background: bisque;
+    padding-bottom: 30px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: brown;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 150px;
+    height: 5px;
+    background-color: blue;
+    border-radius: 90px;
+}
+
+.inputs{
+   margin-top: 10px; 
+   display: contents;
+   
+}
+
+.input{
+    display: contents;
+    align-items: center;
+    width: 50px;
+    background: blue;
+}
+
+.forgot-password{
+    padding-left: 65px;
+    margin-top: 30px;
+    color: black;
+}
+
+.forgot-password span{
+    color: blueviolet;
+    cursor: grab;
+}
+
